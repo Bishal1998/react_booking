@@ -1,4 +1,5 @@
 import Featured from '../../components/featured/Featured';
+import Footer from '../../components/footer/Footer';
 import GuestLove from '../../components/guestLove/GuestLove';
 import Header from '../../components/header/Header';
 import MailList from '../../components/mailList/MailList';
@@ -18,6 +19,7 @@ const Home = () => {
                 <h1 className="homeTitle">Home Guests Love</h1>
                 <GuestLove />
                 <MailList />
+                <Footer />
             </div>
         </>
     )
